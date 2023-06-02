@@ -9,3 +9,7 @@ edition = "2021"
 [[bin]]
 name = "collatzConjecture"
 path = "basics/collatzConjecture.rs"
+
+[[bin]]
+name = "HelloWorld"
+path = "basics/hello.rs"

@@ -1,0 +1,11 @@
+[package]
+name = "rust_by_example_kamesh"
+version = "0.1.0"
+authors = ["Kamesh Akella <kamesh.asp@gmail.com>"]
+edition = "2021"
+
+[dependencies] 
+
+[[bin]]
+name = "collatzConjecture"
+path = "basics/collatzConjecture.rs"

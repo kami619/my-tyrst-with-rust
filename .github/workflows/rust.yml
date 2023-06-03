@@ -17,6 +17,8 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build
+      working-directory: rustByExample
       run: cargo build --verbose
     - name: Run tests
+      working-directory: rustByExample
       run: cargo run --bin HelloWorld
